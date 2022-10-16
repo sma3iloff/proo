@@ -1,0 +1,93 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: sans-serif;
+}
+.contner{
+    background: white;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: auto;
+    width: 80%
+
+}
+.logo{
+    width: 40px;
+}
+ul li{
+    display: inline-block
+}
+ul li a{
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+u{
+    color: rgb(77, 76, 76);
+}
+ul li :hover{
+    color: green;
+    transform: scale(1.2);
+}
+.xxx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    height: 100vh;
+}
+.xxx .txt{
+    width: 60%;
+    color: aliceblue;
+}
+h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+}
+p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: black;
+}
+.txt a{
+    text-decoration: none;
+    background: rgb(8, 8, 8);
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: rgb(113, 112, 112);
+}
+.xxx .pic{
+    width: 40%;
+}
+.pic{
+    width:auto;
+    height:auto;
+}
+.pic :hover{
+    transform: scale(1.2);
+}
+.icon{
+    position: absolute;
+    bottom: 150px;
+    left: 20%;
+}
+.icon a img{
+    width: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.icon  a img:hover{
+    transform: scale(1.2);
+}
